@@ -1,9 +1,11 @@
 ul {
   font-family: tahoma;
   list-style: none;
+  font-size: 18px;
 }
 
 a{
   color: teal;
   text-decoration: none;
+  font-family: tahoma;
 }
