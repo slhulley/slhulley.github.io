@@ -14,3 +14,7 @@ footer {
   font-family: tahoma;
   font-size: 14px;
 }
+
+aside {
+  display: inline-block;
+}
