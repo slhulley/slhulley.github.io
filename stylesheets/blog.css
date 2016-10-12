@@ -1,3 +1,15 @@
 h1 {
+  font-family: 'Roboto Slab', serif;
+  color: #2DAA9E;
+}
+
+h2 {
   font-family: 'Roboto:500', sans-serif;
+  color: #2DAA9E;
+}
+
+a {
+  color: #2DAA9E;
+  text-decoration: none;
+
 }

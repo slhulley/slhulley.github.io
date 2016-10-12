@@ -1,16 +1,17 @@
 ul {
   font-family: 'Roboto Slab', serif;
   list-style: none;
-  font-size: 18px;
+  font-size: 20px;
+
 }
 
 a{
-  color: teal;
+  color: #2DAA9E;
   text-decoration: none;
-  font-family: tahoma;
+
 }
 
 footer {
-  font-family: tahoma;
-  font-size: 14px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
 }
