@@ -101,3 +101,19 @@ a {
   text-decoration: none;
 
 }
+
+nav ul li {
+  display: inline-block;
+
+
+  background-color: white;
+  color: lightgrey;
+
+  font-weight: bold;
+  font-size: 20px;
+
+}
+  nav ul li:hover {
+    background: #2DAA9E;
+
+  }
