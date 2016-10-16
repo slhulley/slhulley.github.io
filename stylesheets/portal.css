@@ -15,3 +15,25 @@ footer {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 16px;
 }
+
+body{
+  background-color: #F4F4F4;
+}
+
+}
+
+nav ul li a{
+  display: inline-block;
+
+
+  background-color: #F4F4F4;
+  color: lightgrey;
+
+  font-weight: bold;
+  font-size: 20px;
+
+}
+  nav ul li a:hover {
+    background: #2DAA9E;
+
+  }

@@ -106,7 +106,7 @@ nav ul li {
   display: inline-block;
 
 
-  background-color: white;
+  background-color: #F4F4F4;
   color: lightgrey;
 
   font-weight: bold;
@@ -117,3 +117,7 @@ nav ul li {
     background: #2DAA9E;
 
   }
+
+body {
+	background-color: #F4F4F4;
+}
