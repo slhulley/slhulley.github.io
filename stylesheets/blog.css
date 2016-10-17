@@ -60,6 +60,11 @@ table {
   position: relative;
 }
 
+div{
+	overflow: hidden
+
+}
+
 
 /* ---end structural styles---*/
 
@@ -96,6 +101,9 @@ h1{
   width: 699px;
 }
 
+figure {
+	align-self: center;
+}
 
 h2 {
   font-family: 'Roboto:500', sans-serif;
@@ -116,8 +124,24 @@ h3{
 a {
   color: #2DAA9E;
   text-decoration: none;
+	text-align: center;
 
 }
+
+
+	body {
+		background-color: #F4F4F4;
+	}
+
+	p{
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+/*----end article styles----*/
+
+/*-----START NAV STYLES-----*/
+
 
 nav ul li {
   display: inline-block;
@@ -128,28 +152,12 @@ nav ul li {
 
   font-weight: bold;
   font-size: 20px;
+	padding: 20px 50px 20px 50px;
+	text-align: center;
+	}
 
-
-}
   nav ul li:hover {
     background: grey;
+	}
 
-  }
-
-body {
-	background-color: #F4F4F4;
-}
-
-div{
-	overflow: hidden
-}
-
-p{
-	margin-top: 15px;
-	margin-bottom: 15px;
-
-}
-
-figure{
-	padding: 15px 0 0 12px;
-}
+/*----end nav styles-----*/
