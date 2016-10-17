@@ -46,10 +46,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* end css reset */
+/* -----end css reset------ */
 
 
-/* begin blog css */
+/* -----begin blog css----- */
 
 /* ---START STRUCTURAL STYLES---*/
 .wrapper {
@@ -65,6 +65,15 @@ table {
 
 /* ---START HEADER STYLES---*/
 
+h1{
+  font-family: 'Roboto:700', sans-serif;
+  color: grey;
+	letter-spacing: 5px;
+	font-variant: small-caps;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 18px;
+}
 
 
 
@@ -87,15 +96,6 @@ table {
   width: 699px;
 }
 
-h1{
-  font-family: 'Roboto:700', sans-serif;
-  color: grey;
-	letter-spacing: 5px;
-	font-variant: small-caps;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	font-size: 18px;
-}
 
 h2 {
   font-family: 'Roboto:500', sans-serif;
@@ -129,6 +129,7 @@ nav ul li {
   font-weight: bold;
   font-size: 20px;
 
+
 }
   nav ul li:hover {
     background: grey;
@@ -147,5 +148,8 @@ p{
 	margin-top: 15px;
 	margin-bottom: 15px;
 
+}
 
+figure{
+	padding: 15px 0 0 12px;
 }
