@@ -80,7 +80,7 @@ table {
   height: 100%;
   top: 0;
   right: 0;
-	
+
 }
 
 .posts{
@@ -88,7 +88,7 @@ table {
 }
 
 h1{
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto:700', sans-serif;
   color: grey;
 	letter-spacing: 5px;
 	font-variant: small-caps;
