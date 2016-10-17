@@ -73,11 +73,12 @@ div{
 h1{
   font-family: 'Roboto:700', sans-serif;
   color: grey;
-	letter-spacing: 5px;
+	letter-spacing: 2px;
 	font-variant: small-caps;
 	margin-top: 15px;
 	margin-bottom: 15px;
 	font-size: 18px;
+
 }
 
 
@@ -95,23 +96,22 @@ h1{
   top: 0;
   right: 0;
 
+
 }
 
 .posts{
   width: 699px;
 }
 
-figure {
-	align-self: center;
-}
 
 h2 {
-  font-family: 'Roboto:500', sans-serif;
+  font-family: helvetica;
   color: #2DAA9E;
-	margin-bottom: 5px;
 	font-size: 50px;
 	float: left;
-	padding: 15px;
+	padding: 30px 25px 2px 15px;
+
+
 
 }
 
@@ -119,15 +119,25 @@ h3{
 		float: left;
 		font-size: 16px;
 		margin-bottom: 10px;
+		font-family: 'Roboto:500', sans-serif;
+		padding-right: 40px;
+}
+
+h4{
+	font-size: 18px;
+	margin-bottom: 10px;
+	font-family: 'Roboto:500', sans-serif;
 }
 
 a {
   color: #2DAA9E;
   text-decoration: none;
-	text-align: center;
 
 }
 
+figure{
+	padding: 10px 0px 0px 10px; 
+}
 
 	body {
 		background-color: #F4F4F4;
@@ -136,6 +146,9 @@ a {
 	p{
 		margin-top: 15px;
 		margin-bottom: 15px;
+		line-height: 20px;
+
+
 	}
 
 /*----end article styles----*/
@@ -145,11 +158,9 @@ a {
 
 nav ul li {
   display: inline-block;
-
-
   background-color: #F4F4F4;
   color: #2DAA9E;
-
+	font-family: 'Roboto:500', sans-serif;
   font-weight: bold;
   font-size: 20px;
 	padding: 20px 50px 20px 50px;
@@ -161,3 +172,11 @@ nav ul li {
 	}
 
 /*----end nav styles-----*/
+
+footer{
+	margin-top: 40px;
+	background-color: lightgrey;
+	padding: 15px;
+
+
+}
