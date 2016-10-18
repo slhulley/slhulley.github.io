@@ -72,8 +72,8 @@ div{
 
 h1{
   font-family: 'Roboto:700', sans-serif;
-  color: grey;
-	letter-spacing: 2px;
+  color: #7EB7A7;
+	letter-spacing: 1px;
 	font-variant: small-caps;
 	margin-top: 15px;
 	margin-bottom: 15px;
@@ -100,13 +100,14 @@ h1{
 }
 
 .posts{
-  width: 699px;
+  width: 684px;
+	padding-right: 15px
 }
 
 
 h2 {
   font-family: helvetica;
-  color: #2DAA9E;
+  color: #7EB7A7;
 	font-size: 50px;
 	float: left;
 	padding: 30px 25px 2px 15px;
@@ -136,7 +137,7 @@ a {
 }
 
 figure{
-	padding: 10px 0px 0px 10px; 
+	padding: 25px 12px 0 12px;
 }
 
 	body {
@@ -147,6 +148,9 @@ figure{
 		margin-top: 15px;
 		margin-bottom: 15px;
 		line-height: 20px;
+		font-family: 'Roboto:500', sans-serif;
+		font-size: 14px;
+
 
 
 	}
@@ -159,17 +163,19 @@ figure{
 nav ul li {
   display: inline-block;
   background-color: #F4F4F4;
-  color: #2DAA9E;
+  color: black;
 	font-family: 'Roboto:500', sans-serif;
   font-weight: bold;
   font-size: 20px;
-	padding: 20px 50px 20px 50px;
+	padding: 15px 90px 45px 90px;
 	text-align: center;
 	}
 
   nav ul li:hover {
-    background: grey;
+    background: white;
 	}
+
+
 
 /*----end nav styles-----*/
 
