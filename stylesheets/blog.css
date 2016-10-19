@@ -77,10 +77,7 @@ h1{
 	margin-top: 20px;
 	margin-bottom: 20px;
 	font-size: 16px;
-
 }
-
-
 
 
 /* ---end header styles---*/
@@ -94,8 +91,6 @@ h1{
   height: 100%;
   top: 0;
   right: 0;
-
-
 }
 
 .posts{
@@ -110,9 +105,6 @@ h2 {
 	font-size: 50px;
 	float: left;
 	padding: 30px 25px 2px 15px;
-
-
-
 }
 
 h3{
@@ -127,14 +119,11 @@ h4{
 	font-size: 18px;
 	margin-bottom: 20px;
 	font-family: 'Roboto:500', sans-serif;
-
-
 }
 
 a {
   color: #2DAA9E;
   text-decoration: none;
-
 }
 
 figure{
@@ -151,9 +140,6 @@ figure{
 		line-height: 20px;
 		font-family: 'Roboto:500', sans-serif;
 		font-size: 14px;
-
-
-
 	}
 
 /*----end article styles----*/
@@ -172,8 +158,6 @@ nav ul li {
 	text-align: center;
 	margin-left: 5px;
 	}
-
-
 
 
 
