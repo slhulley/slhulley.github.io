@@ -72,7 +72,7 @@ div{
 
 h1{
   font-family: 'Roboto:700', sans-serif;
-  color: #46B290;
+  color: black;
 	letter-spacing: 1px;
 	font-variant: small-caps;
 	margin-top: 15px;
@@ -163,7 +163,7 @@ figure{
 nav ul li {
   display: inline-block;
   background-color: #F4F4F4;
-  color: black;
+  color: #46B290;
 	font-family: 'Roboto:500', sans-serif;
   font-weight: bold;
   font-size: 20px;
@@ -171,9 +171,7 @@ nav ul li {
 	text-align: center;
 	}
 
-  nav ul li:hover {
-    background: white;
-	}
+
 
 
 
@@ -183,6 +181,7 @@ footer{
 	margin-top: 40px;
 	background-color: lightgrey;
 	padding: 15px;
+	letter-spacing: 1px;
 
 
 }
