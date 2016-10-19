@@ -74,10 +74,9 @@ h1{
   font-family: 'Roboto:700', sans-serif;
   color: black;
 	letter-spacing: 1px;
-	font-variant: small-caps;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	font-size: 18px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 16px;
 
 }
 
@@ -117,17 +116,19 @@ h2 {
 }
 
 h3{
-		float: left;
-		font-size: 16px;
-		margin-bottom: 10px;
+		float: right;
+		font-size: 14px;
+		margin-bottom: 20px;
 		font-family: 'Roboto:500', sans-serif;
-		padding-right: 40px;
+		padding-right: 20px;
 }
 
 h4{
 	font-size: 18px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	font-family: 'Roboto:500', sans-serif;
+
+
 }
 
 a {
@@ -169,6 +170,7 @@ nav ul li {
   font-size: 20px;
 	padding: 15px 90px 45px 90px;
 	text-align: center;
+	margin-left: 5px;
 	}
 
 
@@ -182,6 +184,7 @@ footer{
 	background-color: lightgrey;
 	padding: 15px;
 	letter-spacing: 1px;
-
+	font-family: 'Roboto:500', sans-serif;
+	font-size: 14px;
 
 }
