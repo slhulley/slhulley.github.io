@@ -1,7 +1,13 @@
 body {
   background-color: #D2D5D8;
+  font-family: 'Dosis', sans-serif;
 }
 
-div .img {
-  padding: 20px 15px 10px 15px;
+.images {
+  padding: 40px 45px 20px 0;
+}
+
+.button {
+  display: inline-block;
+  padding: 0 30px 0 30px;
 }
