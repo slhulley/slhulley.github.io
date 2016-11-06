@@ -1,3 +1,8 @@
+.wrapper {
+  width: 1024px;
+  margin: auto;
+}
+
 body {
   background-color: #D2D5D8;
   font-family: 'Dosis', sans-serif;
