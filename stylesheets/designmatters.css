@@ -5,6 +5,13 @@ body {
 
 header {
   margin-left: 225px;
+
+  font-size: 36px;
+
+}
+
+.header {
+  display: block;
 }
 
 .images {
@@ -20,10 +27,18 @@ header {
 
 .text {
   width: 700px;
-  border: black .5px;
+  border: black 0.15px;
   border: solid;
-  
   padding: 20px 10px 40px 20px;
+}
+
+.verticalline{
+  border-left: 2px solid white;
+  margin-right: 100px;
+  height: 50px;
+
+
+
 }
 
 footer {
