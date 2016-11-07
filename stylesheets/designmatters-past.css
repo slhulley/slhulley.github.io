@@ -88,80 +88,147 @@ h2 {
   font-weight: 500;
 }
 
+h3 {
+  font-size: 18px;
+  color: #313D44;
+  font-weight: 500;
+}
+
 article {
-  position: relative;
+  width: 745px;
+  padding: 45px 20px 95px 20px;
+
+  line-height: 25px;
+}
+
+
+img.alignleft {
+  display: inline;
+  margin: 0 20px 10px 0;
+  padding: 10px 0 10px 0px;
+}
+
+.alignleft {
+  float: left;
+  margin: 20px 0 15px 20px
+}
+
+.img2 {
+  padding-top: 15px;
+
+}
+
+.img3 {
+  padding-top: 15px;
+}
+
+.img4 {
+  padding-top: 15px;
+}
+
+.img5 {
+  padding-top: 15px;
+}
+
+.img6 {
+  padding-top: 15px;
+
+}
+
+.img7 {
+  padding-top: 15px
+
+}
+
+
+.nav{
+  width: 105px;
+  height: 340px;
+  background-color: #6D787B;
+  top: 100px;
+  right: 20px;
+  position: fixed;
+  margin: 45px 105px 0px 0px;
+  z-index: -1;
+
+
 }
 #home {
-  top: 30px;
-  right: 30px;
-  float: right;
-  position: absolute;
-  text-align: center;
+  top: 120px;
+  right: 44px;
+  margin: 45px 100px 0px 0px;
+  position: fixed;
+
 }
 
 #past {
-  top: 100px;
-  right: 30px;
+  top: 200px;
+  right: 44px;
   border-radius: 50%;
   border: solid black 2px;
   width: 41px;
   height: 41px;
-  position: absolute;
+  position: fixed;
   text-align: center;
   line-height: 41px;
   color: white;
   background-color: #313D44;
-  margin: 45px 95px -20px 0px;
+  margin: 45px 110px -20px 0px;
   text-decoration: none;
   font-size: 13px;
 }
 
 #present {
-  top: 170px;
-  right: 30px;
+  top: 260px;
+  right: 44px;
   border-radius: 50%;
   border: solid black 2px;
   width: 41px;
   height: 41px;
-  position: absolute;
+  position: fixed;
   text-align: center;
   line-height: 41px;
   color: white;
   background-color: #313D44;
-  margin: 45px 95px -20px 0px;
+  margin: 45px 110px -20px 0px;
   text-decoration: none;
   font-size: 11px;
 }
 
 #future {
-  top: 240px;
-  right: 30px;
+  top: 320px;
+  right: 44px;
   border-radius: 50%;
   border: solid black 2px;
   width: 41px;
   height: 41px;
-  position: absolute;
+  position: fixed;
   text-align: center;
   line-height: 41px;
   color: white;
   background-color: #313D44;
-  margin: 45px 95px -20px 0px;
+  margin: 45px 110px -20px 0px;
   text-decoration: none;
   font-size: 12px;
 }
 
-.text {
-  width: 700px;
-  border: solid black 1px;
-  padding: 15px 20px 15px 20px;
-  margin: auto;
-  line-height: 25px;
+#links {
+  top: 380px;
+  right: 44px;
+  border-radius: 50%;
+  border: solid black 2px;
+  width: 33px;
+  height: 33px;
+  position: fixed;
+  text-align: center;
+  line-height: 33px;
+  color: white;
+  background-color: #313D44;
+  margin: 45px 114px -20px 0px;
+  text-decoration: none;
+  font-size: 11px;
 
 }
-
-
-
-
 
 
 
