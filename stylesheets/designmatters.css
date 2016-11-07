@@ -9,19 +9,18 @@ body {
 }
 
 header {
-  margin-left: 225px;
-
+  margin-left: 100px;
   font-size: 36px;
 
 }
 
-.header {
-  display: block;
-}
 
 .images {
   padding: 40px 45px 20px 0;
   text-align: center;
+  position: relative;
+  margin-left: 45px;
+
 }
 
 .button {
@@ -30,19 +29,39 @@ header {
 
 }
 
+a {
+
+  bottom: 10px;
+  right: 10px;
+  border-radius: 50%;
+  border: solid black 2px;
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  text-align: center;
+  line-height: 52px;
+  color: white;
+  background-color: #313D44;
+  margin: 30px 80px -20px 0px;
+
+}
+
 .text {
   width: 700px;
   border: black 0.15px;
   border: solid;
   padding: 20px 10px 40px 20px;
+  margin: auto;
+
+
 }
 
+
 .verticalline{
-  border-left: 2px solid white;
-  margin-right: 100px;
+  border-left: 3px solid white;
   height: 50px;
-
-
+  float: right;
+  margin: -89px 520px 0px 0px;
 
 }
 
