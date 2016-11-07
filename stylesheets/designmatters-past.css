@@ -91,6 +91,13 @@ h2 {
 article {
   position: relative;
 }
+#home {
+  top: 30px;
+  right: 30px;
+  float: right;
+  position: absolute;
+  text-align: center;
+}
 
 #past {
   top: 100px;
