@@ -1,3 +1,54 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* -----end css reset------ */
+
 .wrapper {
   width: 1024px;
   margin: auto;
@@ -9,14 +60,21 @@ body {
 }
 
 header {
-  margin-left: 100px;
+  margin: 50px 0 0 110px;
   font-size: 36px;
 
 }
 
+h1 {
+  font-size: 40px;
+  color: black;
+  font-family: 'Dosis';
+  font-weight: 500;
+
+}
 
 .images {
-  padding: 40px 45px 20px 0;
+  padding: 60px 45px 20px 0;
   text-align: center;
   position: relative;
   margin-left: 45px;
@@ -29,7 +87,64 @@ header {
 
 }
 
-a {
+#past {
+  position: absolute;
+  top: 63px;
+  left: 122px;
+  margin: 0px;
+  width: 189px;
+  height: 189px;
+  text-align: center;
+  line-height: 189px;
+  color: #D2D5D8;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#past:hover {
+  color: white;
+}
+
+#present {
+  position: absolute;
+  top: 60px;
+  left: 374px;
+  margin: 0px;
+  width: 189px;
+  height: 189px;
+  text-align: center;
+  line-height: 189px;
+  color: #D2D5D8;
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+#present:hover {
+  color: white;
+}
+
+#future {
+  position: absolute;
+  top: 60px;
+  right: 165px;
+  margin: 0px;
+  width: 189px;
+  height: 189px;
+  text-align: center;
+  line-height: 189px;
+  color: #D2D5D8;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#future:hover {
+  color: white;
+}
+
+#links {
 
   bottom: 10px;
   right: 10px;
@@ -42,17 +157,32 @@ a {
   line-height: 52px;
   color: white;
   background-color: #313D44;
-  margin: 30px 80px -20px 0px;
+  margin: 45px 95px -20px 0px;
+  text-decoration: none;
 
 }
 
-.text {
+article {
   width: 700px;
-  border: black 0.15px;
-  border: solid;
-  padding: 20px 10px 40px 20px;
   margin: auto;
 
+}
+
+h3 {
+  margin: 30px 0 10px 0;
+  font-size: 20px;
+  color: #313D44;
+  font-weight: 500;
+}
+
+
+.text {
+  width: 700px;
+  border: black 0.10px;
+  border: solid;
+  padding: 20px 10px 10px 20px;
+  margin: auto;
+  line-height: 25px;
 
 }
 
@@ -61,14 +191,25 @@ a {
   border-left: 3px solid white;
   height: 50px;
   float: right;
-  margin: -89px 520px 0px 0px;
+  margin: -43px 545px 0px 0px;
 
 }
+
+h2 {
+  margin: 11px 0 0 18px;
+  color: #313D44;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+
 
 footer {
   background-color: #313D44;
   color: white;
-  position: fixed;
+  position: relative;
   width: 1024px;
+  height: 40px;
+  margin: auto;
 
 }
