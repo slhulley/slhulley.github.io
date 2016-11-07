@@ -101,6 +101,10 @@ article {
   line-height: 25px;
 }
 
+a {
+  text-decoration: none;
+  color: #313D44;
+}
 
 img.alignleft {
   display: inline;
