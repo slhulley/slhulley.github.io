@@ -1,0 +1,212 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* -----end css reset------ */
+
+.wrapper {
+  width: 1024px;
+  margin: auto;
+}
+
+body {
+  background-color: #D2D5D8;
+  font-family: 'Dosis', sans-serif;
+}
+
+header {
+  margin: 50px 0 0 110px;
+  font-size: 36px;
+
+}
+
+h1 {
+  font-size: 40px;
+  color: black;
+  font-family: 'Dosis';
+  font-weight: 500;
+
+}
+
+.verticalline{
+  border-left: 3px solid white;
+  height: 50px;
+  float: right;
+  margin: -43px 520px 0px 0px;
+
+}
+
+h2 {
+  margin: 11px 0 0 18px;
+  color: #313D44;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 18px;
+  color: #313D44;
+  font-weight: 500;
+}
+
+article {
+  width: 730px;
+  padding: 45px 20px 95px 20px;
+  line-height: 28px;
+  margin-left: 80px;
+}
+
+
+
+
+.nav{
+  width: 105px;
+  height: 340px;
+  background-color: #6D787B;
+  top: 100px;
+  right: 20px;
+  position: fixed;
+  margin: 45px 105px 0px 0px;
+  z-index: -1;
+
+}
+
+#home {
+  top: 120px;
+  right: 44px;
+  margin: 45px 100px 0px 0px;
+  position: fixed;
+
+}
+
+#past {
+  top: 200px;
+  right: 44px;
+  border-radius: 50%;
+  border: solid black 2px;
+  width: 41px;
+  height: 41px;
+  position: fixed;
+  text-align: center;
+  line-height: 41px;
+  color: white;
+  background-color: #313D44;
+  margin: 45px 110px -20px 0px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+#present {
+  top: 260px;
+  right: 44px;
+  border-radius: 50%;
+  border: solid black 2px;
+  width: 41px;
+  height: 41px;
+  position: fixed;
+  text-align: center;
+  line-height: 41px;
+  color: white;
+  background-color: #313D44;
+  margin: 45px 110px -20px 0px;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+#future {
+  top: 320px;
+  right: 44px;
+  border-radius: 50%;
+  border: solid black 2px;
+  width: 41px;
+  height: 41px;
+  position: fixed;
+  text-align: center;
+  line-height: 41px;
+  color: white;
+  background-color: #313D44;
+  margin: 45px 110px -20px 0px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+#links {
+  top: 380px;
+  right: 44px;
+  border-radius: 50%;
+  border: solid black 2px;
+  width: 33px;
+  height: 33px;
+  position: fixed;
+  text-align: center;
+  line-height: 33px;
+  color: white;
+  background-color: #313D44;
+  margin: 45px 114px -20px 0px;
+  text-decoration: none;
+  font-size: 11px;
+
+}
+
+
+
+footer a{
+  background-color: #313D44;
+  position: fixed;
+  bottom: 0;
+  width: 1024px;
+  height: 40px;
+  margin-top: 12px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  line-height: 40px;
+  font-size: 14px;
+
+}
