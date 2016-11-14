@@ -48,45 +48,178 @@ table {
 }
 /* -----end css reset------ */
 
+/* ---STRUCTURAL STYLES--- */
+/* ---mobile--- */
 
+.page{
+	width: 100%;
+	min-width: 375px;
+  height: 665px;
+  margin: auto;
+	background-image: url("../images/cc-mobile-bg.jpg");
+	background-size: cover;
+	position: relative;
+
+}
+
+/* ---desktop--- */
+
+@media (min-width: 724px) {
+	.page {
+		max-width: 1024px;
+		height: 768px;
+		background-image: url("../images/cc-bg.jpg");
+	}
+}
+
+/* ---mobile--- */
+
+header{
+	width: 100%;
+	height: 22%;
+	padding: 10% 0;
+}
+
+/* ---desktop--- */
+
+@media (min-width: 724px) {
+	header {
+		width: 25%;
+		height: 33%;
+		margin: 0;
+		padding: 2% 0 0 0;
+	}
+}
+
+/* ---NAV STYLES--- */
+
+/* ---mobile--- */
+
+.nav-mobile {
+	width: 11%;
+	position: absolute;
+	left: 10%;
+	top: 5%;
+}
+
+.nav-desktop {
+	display: none;
+}
+
+/* ---desktop--- */
+
+@media (min-width: 724px) {
+	.nav-mobile {
+		display: none;
+	}
+
+	nav{
+		width: 75%;
+		position: absolute;
+		top: 0%;
+		right: 0%;
+		height: 33%;
+		padding: 2% 0 0 0;
+	}
+
+	.nav-desktop {
+		display: table;
+		margin-top: 10%;
+	}
+
+	.nav-desktop li {
+		display: table-cell;
+		width: 10%;
+		padding: 3%;
+		white-space: nowarp;
+		text-align: center;
+	}
+			a:link, a:active {
+					text-decoration: none;
+					color: white;
+			}
+
+			a:visited, a:hover {
+					text-decoration: none;
+					color: #bbb;
+			}
+}
+
+/* ---HEADER STYLES--- */
+
+/* ---mobile--- */
+
+.logo {
+	width: 34%;
+	display: block;
+	margin: auto;
+}
+
+/* ---desktop--- */
+
+@media (min-width: 724px) {
+	main {
+		width: 70%;
+		height: 52%;
+		padding-left: 30;
+	}
+}
+
+/* ---mobile--- */
+
+article {
+	width: 80%;
+}
+
+/* ---desktop--- */
+
+@media (min-width: 724px) {
+	article {
+		width: 70%;
+		font-size: 1.125em;
+	}
+}
+
+/* ---mobile--- */
 
 h1 {
-  font-family: 'Corben', 'script';
-  font-weight: 700;
+	font-family: 'Corben', 'cursive';
+	font-weight: 700;
 	font-size: 2.375em;
-	color: white;
+	margin-bottom: 10%;
+
+}
+
+/* ---desktop--- */
+@media (min-width: 724px) {
+	h1 {
+		font-size: 4em;
+	}
+}
+
+/* ---mobile--- */
+
+p {
+	font-size: .65em;
+	margin-top: 15%;
+
+
+}
+
+p:last-child {
+	margin-top: auto;
+}
+
+/* ---desktop--- */
+
+@media (min-width: 724px) {
+	p {
+		margin-top: 5%;
+	}
 }
 
 body {
-  background-image: url("../images/cc-mobile-bg.jpg");
-	background-size: cover;
-
-
-}
-
-header{
-	height: 300px;
-	width: 100%;
-
-}
-
-.logo {
-	width: 128px;
-
-}
-
-.menu {
-	width: 43px;
-}
-
-p {
-  font-family: 'Montserrat', sans-serif;
-	font-size: .6em;
-	line-height: 1.1em;
+	line-height: .9em;
+	font-family: 'Montserrat', 'sans-serif';
 	color: white;
-}
-
-main {
-	width: 90%;
-	margin: auto;
 }
