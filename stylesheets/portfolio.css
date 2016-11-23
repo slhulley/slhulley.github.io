@@ -51,21 +51,35 @@ table {
 
 body {
   background-color: #E2E0D3;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
   font-size: 30px;
   text-align: center;
   margin-right: 270px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+#logo {
+  margin: 20px 0 0 20px;
+  padding-bottom: 30px;
 }
 
 .nav {
-  
+  float: left;
+  position: absolute;
+  padding-left: 20px;
 }
 
 #about-me, #bad-religion, #futura, #design, #camera, #young, #model {
   text-decoration: none;
   color: black;
+  line-height: 35px;
+
+
+
 
 }
 
@@ -83,7 +97,9 @@ a {
 }
 
 .images {
-  margin-left: 400px;
+  margin-left: 300px;
+  float: right;
+  position: absolute;;
 }
 
 
@@ -91,10 +107,11 @@ footer {
   background-color: black;
   height: 40px;
   width: 1024px;
+
 }
+
 .verticalline{
   border-left: 3px solid white;
   height: 50px;
-
 
 }
