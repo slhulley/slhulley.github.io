@@ -110,24 +110,34 @@ a {
 
 }
 
-.button {
-  display: inline-block;
-  padding: 15px;
+div.button {
+  display: table-cell;
+  padding: 40px;
+	width: 50%;
 
 
 
 }
 
-.images {
+.img-nav {
+	display: table;
   margin-left: 330px;
   position: absolute;
   padding: 35px;
 	top: 45px;
-	max-width: 100%;
+	width: 100%;
 
 }
 
-nav {
+.img-nav .row-1 {
+	display: table-row;
+}
+
+.img-nav .row-2 {
+	display: table-row;
+}
+
+.main-nav {
 	width: 300px;
 	position: absolute;
 }
