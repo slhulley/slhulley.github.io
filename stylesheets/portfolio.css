@@ -67,7 +67,7 @@ h1 {
 h2 {
   font-size: 18px;
 	color: black;
-	padding: 20px 0 30px 45px;
+	padding: 12px 0 30px 45px;
 	line-height: 25px;
 
 }
@@ -98,6 +98,13 @@ h2 {
 	padding-left: 45px;
 	max-width: 100%;
 
+}
+
+#badreligion-poster {
+	width: 50%;
+	float: right;
+	position: relative;
+	margin: 0 100px 150px 0;
 }
 
 p {
