@@ -67,6 +67,7 @@ h1 {
 #logo {
   margin: 20px 0 0 45px;
   padding-bottom: 30px;
+	max-width: 10%;
 }
 
 
@@ -76,10 +77,27 @@ h1 {
   color: black;
   line-height: 45px;
   padding-left: 45px;
+
+
+}
+
+#about-me:visited {
+	background-color: white;
 }
 
 #home {
+
 	padding-left: 45px;
+	max-width: 100%;
+
+}
+
+p {
+	width: 450px;
+	max-width: 100%;
+	float: right;
+	margin: 0 85px 150px 0;
+	line-height: 21px;
 
 }
 
@@ -89,25 +107,34 @@ a {
 
 
 
+
 }
 
 .button {
   display: inline-block;
   padding: 15px;
 
+
+
 }
 
 .images {
-  margin-left: 400px;
+  margin-left: 330px;
   position: absolute;
   padding: 35px;
 	top: 45px;
+	max-width: 100%;
+
 }
 
+nav {
+	width: 300px;
+	position: absolute;
+}
 
 footer {
   background-color: black;
-  height: 8%;
+  height: 5%;
   width: 100%;
 	position: fixed;
 	bottom: 0;
