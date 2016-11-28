@@ -63,7 +63,7 @@ body {
 h1 {
 
   font-family: 'Montserrat', sans-serif;
-  font-size: 3em;
+  font-size: 2.2em;
 	padding: 20px 0 20px 0;
 	text-align: center;
 
@@ -96,8 +96,9 @@ h2 {
 
 #home {
 
-	padding-left: 45px;
+	padding: 0 0 100px 45px;
 	max-width: 100%;
+
 
 }
 
@@ -130,44 +131,33 @@ p {
 footer a {
   text-decoration: none;
   color: white;
-	display: table-cell;
-	font-size: 14px;
-	padding: 3px 0 3px 0;
-
-
-
+	font-size: 0.9em;
+	margin: 10px;
 
 
 }
 
-div.button {
-  display: table-cell;
-  padding: 40px;
+.button {
 	width: 50%;
+	max-width: 200px;
+	margin:12px;
+	border:1px solid #f00;
+}
 
-
-
+@media screen and (max-width:700px) {
+	.button{ border:5px solid #f00;}
 }
 
 .img-nav {
-	display: table;
+	overflow:auto;
   margin-left: 330px;
   position: absolute;
-  padding: 35px;
-	top: 45px;
+	top: 100px;
 	width: 724px;
-	max-width: 100%;
+	border:1px solid #f00;
 
 }
 
-.img-nav .row-1 {
-	display: table-row;
-
-}
-
-.img-nav .row-2 {
-	display: table-row;
-}
 
 .main-nav {
 	width: 300px;
@@ -180,9 +170,13 @@ footer {
 	width: 100%;
 	position: fixed;
 	bottom: 0;
-	display: table;
+	color: white;
+	padding:6px;
+	text-align: center;
 
 }
+
+
 
 #wc3 {
 	text-align: right;
@@ -195,12 +189,5 @@ footer {
 	text-align: left;
 
 }
-
-.verticalline {
-  border-left: 2.5px solid white;
-  height: 20px;
-	margin: 8px 25px 0 0px;
-
-
 
 }
