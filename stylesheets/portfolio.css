@@ -49,6 +49,11 @@ table {
 
 /* -----end css reset------ */
 
+.wrapper {
+	width: 1024px;
+	max-width: 100%;
+}
+
 body {
   background-color: #E2E0D3;
   font-family: 'Montserrat', sans-serif;
@@ -58,24 +63,24 @@ body {
 h1 {
 
   font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
+  font-size: 3em;
 	padding: 20px 0 20px 0;
 	text-align: center;
 
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 1em;
 	color: black;
 	padding: 12px 0 30px 45px;
-	line-height: 25px;
+	line-height: 1.4em;
 
 }
 
 #logo {
   margin: 50px 0 10px 45px;
   padding-bottom: 30px;
-	max-width: 10%;
+	max-width: 12%;
 }
 
 
@@ -83,16 +88,11 @@ h2 {
 #about-me, #bad-religion, #futura, #design, #camera, #young, #model {
   text-decoration: none;
   color: black;
-  line-height: 45px;
+  line-height: 3em;
   padding-left: 45px;
 
-
-
 }
 
-#about-me:visited {
-	background-color: white;
-}
 
 #home {
 
@@ -103,25 +103,26 @@ h2 {
 
 .content {
 	display: table;
-	width: 950px;
+	width: 724px;
 	float: right;
 }
 
-#badreligion-poster, #futura-poster {
-	width: 52%;
+#badreligion-poster, #futura-poster, #type-book {
+	width: 70%;
 	position: relative;
 	display: table-cell;
 	margin: 0 300px 100px 0;
 }
 
+
 p {
-	font-size: 0.95em;
-	width: 400px;
+	font-size: 0.8em;
+	width: 320px;
 	max-width: 100%;
 	float: right;
-	line-height: 21px;
+	line-height: 1.5em;
 	display: table-cell;
-	margin-top:-285px;
+	margin:-320px -150px 0 0;
 	padding: 20px;
 
 }
@@ -154,12 +155,14 @@ div.button {
   position: absolute;
   padding: 35px;
 	top: 45px;
-	width: 100%;
+	width: 724px;
+	max-width: 100%;
 
 }
 
 .img-nav .row-1 {
 	display: table-row;
+
 }
 
 .img-nav .row-2 {
@@ -168,13 +171,13 @@ div.button {
 
 .main-nav {
 	width: 300px;
-
+	font-size: 0.9em;
 
 }
 
 footer {
   background-color: black;
-  width: 100%;
+	width: 100%;
 	position: fixed;
 	bottom: 0;
 	display: table;
