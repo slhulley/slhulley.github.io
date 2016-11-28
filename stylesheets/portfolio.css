@@ -102,29 +102,21 @@ h2 {
 
 }
 
-.content {
-	display: table;
-	width: 724px;
-	float: right;
-}
 
 #badreligion-poster, #futura-poster, #type-book {
 	width: 70%;
 	position: relative;
-	display: table-cell;
 	margin: 0 300px 100px 0;
 }
 
 
 p {
 	font-size: 0.8em;
-	width: 320px;
-	max-width: 100%;
-	float: right;
+
+
 	line-height: 1.5em;
-	display: table-cell;
-	margin:-320px -150px 0 0;
-	padding: 20px;
+
+
 
 }
 
@@ -160,9 +152,19 @@ footer a {
 
 
 .main-nav {
-	width: 300px;
+	border:1px solid #f00;
+	width: 20%;
+	min-width:300px;
 	font-size: 0.9em;
+	float:left;
+}
 
+.content {
+	border:1px solid #f00;
+	width:70%;
+	overflow:auto;
+	margin-bottom:50px;
+	float: left;
 }
 
 footer {
@@ -176,18 +178,5 @@ footer {
 
 }
 
-
-
-#wc3 {
-	text-align: right;
-	padding-right: 15px;
-
-}
-
-#email {
-	padding-left: 15px;
-	text-align: left;
-
-}
 
 }
