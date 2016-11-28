@@ -87,6 +87,7 @@ h2 {
   padding-left: 45px;
 
 
+
 }
 
 #about-me:visited {
@@ -100,19 +101,28 @@ h2 {
 
 }
 
-#badreligion-poster {
-	width: 50%;
+.content {
+	display: table;
+	width: 950px;
 	float: right;
+}
+
+#badreligion-poster, #futura-poster {
+	width: 52%;
 	position: relative;
-	margin: 0 100px 150px 0;
+	display: table-cell;
+	margin: 0 300px 100px 0;
 }
 
 p {
-	width: 450px;
+	font-size: 0.95em;
+	width: 400px;
 	max-width: 100%;
 	float: right;
-	margin: 0 85px 150px 0;
 	line-height: 21px;
+	display: table-cell;
+	margin-top:-285px;
+	padding: 20px;
 
 }
 
@@ -158,7 +168,8 @@ div.button {
 
 .main-nav {
 	width: 300px;
-	position: absolute;
+
+
 }
 
 footer {
