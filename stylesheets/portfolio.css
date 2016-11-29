@@ -72,15 +72,26 @@ h1 {
 h2 {
   font-size: 1em;
 	color: black;
-	padding: 12px 0 30px 45px;
+	padding: 12px 0 0 45px;
 	line-height: 1.4em;
+	margin-bottom: 15px;
 
 }
+
+#menu {
+	float: right;
+	max-width: 6%;
+	margin-top: 20px;
+
+}
+
 
 #logo {
   margin: 50px 0 10px 45px;
   padding-bottom: 30px;
 	max-width: 12%;
+	border:1px solid #f00;
+
 }
 
 
@@ -89,14 +100,15 @@ h2 {
   text-decoration: none;
   color: black;
   line-height: 3em;
-  padding-left: 45px;
+  margin-left: 45px;
 
 }
 
 
+
 #home {
 
-	padding: 0 0 100px 45px;
+	margin-left: 45px;
 	max-width: 100%;
 
 
@@ -104,18 +116,18 @@ h2 {
 
 
 #badreligion-poster, #futura-poster, #type-book {
-	width: 70%;
-	position: relative;
+	width: 75%;
 	margin-bottom: 40px;
-	text-align: center;
+
+
 }
 
 
 p {
 	font-size: 0.8em;
-
-
+	text-align: left;
 	line-height: 1.5em;
+	width: 550px;
 
 
 
@@ -142,12 +154,13 @@ footer a {
 }
 
 .img-nav {
-	overflow:auto;
+	overflow: auto;
   margin-left: 330px;
   position: absolute;
-	top: 100px;
+	top: 130px;
 	width: 724px;
 	border:1px solid #f00;
+	padding-bottom: 100px;
 
 }
 
@@ -158,6 +171,7 @@ footer a {
 	min-width:300px;
 	font-size: 0.9em;
 	float:left;
+
 }
 
 .content {
@@ -166,6 +180,8 @@ footer a {
 	overflow:auto;
 	margin-bottom:50px;
 	float: left;
+
+
 }
 
 footer {
@@ -176,8 +192,5 @@ footer {
 	color: white;
 	padding:6px;
 	text-align: center;
-
-}
-
 
 }
