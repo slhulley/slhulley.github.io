@@ -125,18 +125,27 @@ h2 {
 
 }
 
+.futura-poster img{
+	width: 70%;
+	margin-bottom: 40px;
+}
 
-#badreligion-poster, #futura-poster, #type-book {
+.me img {
+	width: 60%;
+	margin: 0 0 40px 40px;
+}
+
+.badreligion-poster img {
+	width: 70%;
+	margin-bottom: 40px;
+}
+
+.type-book img {
 	width: 70%;
 	margin-bottom: 40px;
 
 }
 
-#me {
-	width: 50%;
-	margin-bottom: 0 0 40px 40px;
-
-}
 
 p {
 	font-size: 0.8em;
