@@ -55,7 +55,7 @@ table {
 }
 
 body {
-  background-color: #E2E0D3;
+  background-color: #9DA39D;
   font-family: 'Montserrat', sans-serif;
 
 }
@@ -146,6 +146,15 @@ h2 {
 
 }
 
+.digital-camera img {
+	width: 70%;
+	margin-bottom: 40px;
+}
+
+.ytg-poster img {
+	width: 72%;
+	margin-bottom: 40px;
+}
 
 p {
 	font-size: 0.8em;
