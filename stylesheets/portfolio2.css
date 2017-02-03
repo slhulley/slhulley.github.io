@@ -1,0 +1,327 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* -----end css reset------ */
+
+.wrapper {
+	width: 1024px;
+	max-width: 100%;
+}
+
+
+
+body {
+  background-color: #9DA39D;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+h1 {
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.2em;
+	text-align: center;
+	padding: 15px;
+	margin-right: 45px;
+
+}
+
+@media screen and (max-width:768px) {
+	h1 {
+		visibility: hidden;
+	}
+}
+
+/*-- @media screen and (min-width:768px) {
+		h1 {
+			visibility: visible;
+			padding-bottom: 60px;
+			text-align: center;
+			margin: auto;
+			font-size: 2.8em;
+		}
+} --*/
+
+h2 {
+  font-size: 1em;
+	color: black;
+	padding: 12px 0 0 45px;
+	line-height: 1.4em;
+	margin-bottom: 30px;
+
+}
+
+@media only screen and (max-width:768px) {
+	h2 {
+		visibility: hidden;
+		padding: 0px;
+		margin: 0px;
+	}
+}
+#menu {
+	float: right;
+	max-width: 8%;
+	margin: 35px 35px 0 0;
+
+
+}
+
+@media screen and (min-width:770px) {
+	#menu {
+		visibility: hidden;
+	}
+
+}
+
+.logo {
+  margin: 50px 0 10px 45px;
+  padding-bottom: 20px;
+	max-width: 12%;
+
+}
+
+@media screen and (max-width:775px) {
+	.logo {
+		max-width: 40%;
+		text-align: center;
+		margin: 0 145px 0 110px;
+		padding-top: 100px;
+		padding-bottom: 0;
+		display: block;
+		position: absolute;
+
+
+	}
+}
+
+/*-- @media screen and (min-width:768px) {
+	#logo {
+		max-width: 35%;
+		text-align: center;
+		margin: 0 250px 0 250px;
+		padding-top: 170px;
+	}
+} --*/
+
+.main-nav a:hover {
+	color: white;
+}
+
+.main-nav a {
+	text-decoration: none;
+	color: black;
+	line-height: 3em;
+	margin-left: 45px;
+}
+
+#home {
+	margin-left: 45px;
+	max-width: 100%;
+}
+
+.futura-poster img{
+	width: 70%;
+	margin-bottom: 50px;
+}
+
+.me img {
+	width: 60%;
+	margin-bottom: 50px;
+}
+
+.badreligion-poster img {
+	width: 70%;
+	margin-bottom: 50px;
+}
+
+.type-book img {
+	width: 80%;
+	margin-bottom: 50px;
+
+}
+
+.digital-camera img {
+	width: 70%;
+	margin-bottom: 50px;
+}
+
+.ytg-poster img {
+	width: 72%;
+	margin-bottom: 50px;
+}
+
+.scale-model img{
+	width: 90%;
+	margin-bottom: 50px;
+}
+
+@media screen and (max-width:768px) {
+	.futura-poster img {
+		width: 90%;
+	}
+	.type-book img {
+		width: 90%;
+	}
+	.digital-camera img {
+		width: 85%;
+	}
+	.ytg-poster img {
+		width: 85%;
+	}
+}
+
+
+p {
+	font-size: 0.8em;
+	text-align: left;
+	line-height: 1.5em;
+	width: 500px;
+	margin: auto;
+	max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+	p {
+		width: 300px;
+		margin-bottom: 50px;
+		font-size: 0.9em;
+
+	}
+}
+
+
+
+.button {
+	width: 50%;
+	max-width: 200px;
+	margin:12px;
+
+}
+
+
+.img-nav {
+	overflow: auto;
+  margin-left: 330px;
+  position: absolute;
+	top: 130px;
+	width: 724px;
+	padding-bottom: 100px;
+
+}
+
+
+.main-nav {
+
+	width: 20%;
+	min-width:300px;
+	font-size: 0.9em;
+	text-decoration: none;
+
+
+}
+
+@media (max-width:768px) {
+	.button {
+		width: 100%;
+		margin: 0px;
+		padding-bottom: 50px;
+	}
+	.main-nav {
+		visibility: hidden;
+	}
+	.img-nav {
+
+		margin-left: 0px;
+		position: relative;
+		max-width: 100%;
+		padding-bottom: 0px;
+		text-align: center;
+		top: 250px;
+		width: 400px;
+	}
+}
+
+/*--- @media (min-width:768px) {
+	.button{
+		width: 100%;
+		margin: 12px;
+		padding-bottom: 50px;
+	}
+	.main-nav {
+		visibility: hidden;
+	}
+	.img-nav {
+		margin-left: 0px;
+		margin: auto;
+		max-width: 100%;
+		padding-bottom: 100px;
+		text-align: center;
+		top: 450px;
+		width: 700px;
+	}
+} ---*/
+
+.content {
+
+	width:70%;
+	overflow:auto;
+	margin-bottom:50px;
+	text-align: center;
+  margin-left: 320px;
+  margin-top: 270px;
+
+
+}
+
+@media screen and (max-width: 768px) {
+	.content {
+		width: 100%;
+		margin: auto;
+	}
+}
